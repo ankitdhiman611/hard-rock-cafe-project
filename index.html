@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- 
+    <script>
+        function review() {
+            document.getElementById("sameer").style.display = 'block';
+        }
+        function close_div() {
+            document.getElementById("sameer").style.display = 'none';
+        }
+
+
+
+        function login() {
+            document.getElementById("ankit").style.display = 'block';
+        }
+
+        function login_again() {
+            document.getElementById("keshav").style.display = 'none';
+            document.getElementById("ankit").style.display = 'block';
+        }
+
+        function close_login() {
+            document.getElementById("ankit").style.display = 'none';
+        }
+
+
+        function signup() {
+            document.getElementById("keshav").style.display = 'block';
+        }
+        function signup_again() {
+            document.getElementById("keshav").style.display = 'block';
+            document.getElementById("ankit").style.display = 'none';
+
+        }
+       
+        function close_signup() {
+            document.getElementById("keshav").style.display = 'none';
+        }
+
+    </script> -->
+</head>
+
+<body>
+
+    <!-------Review Pop Div-->
+
+    <div class="modal" id="sameer">
+        <div class="review-content">
+            <span class="close_button" onclick="close_div()">&times;</span>
+            <h2>Review us</h2>
+            <p>Leave your Review For Our Servies</p>
+            <textarea cols="30" rows="10"> </textarea><br>
+        <a href="#" class="review">Submit</a><br>
+
+        </div>
+    </div>
+
+    <!--Review Pop Up Div End-->
+
+
+
+
+    <!-- login form -->
+    <div class="modall" id="ankit">
+        <div class="login-container">
+            <span class="close_button" onclick="close_login()">&times;</span>
+
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email" class="input" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" class="input" required>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+            </form>
+            <p class="signup-link">Don't have an account? <a href="/signup" onclick="signup_again(); return false; ">Sign Up</a></p><br>
+        </div>
+    </div>
+    <!-- login form end -->
+
+
+
+
+
+
+
+    <!-- signup form -->
+    <div class="signupclose" id="keshav">
+        <div class="signup-container">
+            <span class="close_button" onclick="close_signup()">&times;</span>
+
+            <h2>Registartion</h2>
+            <form action="#">
+
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="name" class="input" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email" class="input" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" class="input" required>
+                </div>
+                <div class="input-group">
+                    <label for="gender">Gender</label>
+                    <div class="radio-container">
+                        <input type="radio" id="male" name="gender" value="male" class="input" required>
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="radio-container">
+                        <input type="radio" id="female" name="gender" value="female" class="input" required>
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="mobile">Mobile</label>
+                    <input type="number" id="mobile" name="mobile" placeholder="mobile" class="input" required>
+                </div>
+                <div class="input-group">
+                    <label for="address">Address</label>
+                    <textarea cols="10" rows="2" required name="address" id="address"
+                        class="textarea"></textarea><br><br>
+
+
+                </div>
+                <button type="submit" class="login-button">Signup</button>
+            </form>
+            <p class="signup-link">Already have an account? <a href="/#" onclick="login_again()">Login</a></p><br>
+        </div>
+    </div>
+
+    <!-- signup form end -->
+
+
+
+
+
+    <header>
+        <div class="conatct_div">
+            <div>
+                Address: Sco 34, D, beside ICIC Bank, Sector 26, Chandigarh, 160019
+            </div>
+            <div>
+                <!-- <span style="font-size:20px;">&#9993; rersharma@gmail.com</span> -->
+            </div>
+            <div>
+                &#128222;: +917814546195 ,+916239685908
+            </div>
+        </div>
+        <div class="menubar">
+            <img class="logo_image" src="/images/WhatsApp Image 2024-09-28 at 18.57.00.jpeg">
+            <div class="menu_container">
+                <a class="menu_item" href="/index.html">Home</a>
+                <a class="menu_item" href="/about.html">About</a>
+                <a class="menu_item" href="/menu.html">Menu</a>
+                <a class="menu_item" href="/ catering.html">Catering</a>
+                <a class="menu_item" href="#" onclick="login()">Login</a>
+                <a class="menu_item" href="#" onclick="signup()">Signup</a>
+            </div>
+        </div>
+    </header>
+    <div class="latestoffer">
+        <marquee> Hard Rock Cafe has over 170 locations around the world, and there is one constant at all these destinations—we can pull off any event that you envision.</marquee>
+    </div>
+
+
+    <div class="Header_after">
+        <div class="login_div">
+            <h2 class="enquiry">Enquiry</h2>
+            <form action="#" method="post">
+                <div class="enquiry_div">
+                    <div class="form_div">
+                        <label>Name:</label>
+                        <input class="myfield" type="text" name="name" required placeholder="Enter Your Name">
+                    </div>
+                    <div class="form_div">
+                        <label>Email:</label>
+                        <input class="myfield" type="email" name="email" required placeholder="Enter Your Email-Id">
+                    </div>
+                    <div class="form_div">
+                        <label>Subject:</label>
+                        <input class="myfield" type="text" name="subject" required placeholder="Title of Your Query">
+                    </div>
+                    <div class="form_div">
+                        <label>Message:</label>
+                        <textarea class="mymessage" name="Message" required></textarea>
+                    </div>
+                    <div class="form_div">
+                        <button class="mysubmit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="gellery_div">
+           <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+    <div class="ws_images"><ul>
+            <li><img src="data1/images/hardrockcafe.jpg" alt="Hard Rock Cafe" title="Hard Rock Cafe" id="wows1_0"/></li>
+            <li><img src="data1/images/food3.jpg" alt="Fresh  Mohito.." title="Fresh  Mohito.." id="wows1_1"/></li>
+            <li><img src="data1/images/bar1.jpg" alt="Premium Bar Area.." title="Premium Bar Area.." id="wows1_2"/></li>
+            <li><img src="data1/images/food4.jpg" alt="Our Platter.." title="Our Platter.." id="wows1_3"/></li>
+            <li><img src="data1/images/sitting2.jpg" alt="Premium Lights And Sitting Area." title="Premium Lights And Sitting Area." id="wows1_4"/></li>
+            <li><a href="http://wowslider.net"><img src="data1/images/food2.jpg" alt="bootstrap slideshow" title="Our Special Burger.." id="wows1_5"/></a></li>
+            <li><img src="data1/images/food1.jpg" alt="food1" title="food1" id="wows1_6"/></li>
+        </ul></div>
+        <div class="ws_bullets"><div>
+            <a href="#" title="Hard Rock Cafe"><span><img src="data1/tooltips/hardrockcafe.jpg" alt="Hard Rock Cafe"/>1</span></a>
+            <a href="#" title="Fresh  Mohito.."><span><img src="data1/tooltips/food3.jpg" alt="Fresh  Mohito.."/>2</span></a>
+            <a href="#" title="Premium Bar Area.."><span><img src="data1/tooltips/bar1.jpg" alt="Premium Bar Area.."/>3</span></a>
+            <a href="#" title="Our Platter.."><span><img src="data1/tooltips/food4.jpg" alt="Our Platter.."/>4</span></a>
+            <a href="#" title="Premium Lights And Sitting Area."><span><img src="data1/tooltips/sitting2.jpg" alt="Premium Lights And Sitting Area."/>5</span></a>
+            <a href="#" title="Our Special Burger.."><span><img src="data1/tooltips/food2.jpg" alt="Our Special Burger.."/>6</span></a>
+            <a href="#" title="food1"><span><img src="data1/tooltips/food1.jpg" alt="food1"/>7</span></a>
+        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript carousel</a> by WOWSlider.com v9.0m</div>
+    <div class="ws_shadow"></div>
+    </div>	
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <!-- End WOWSlider.com BODY section -->
+                               
+        </div> 
+        <div class="location_div">
+            <h2 class="enquiry">Our Location</h2>
+            
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244549.63365097385!2d76.7535199730008!3d30.559634236860195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed11c1ac1769%3A0x3633250028d4d241!2sHard%20Rock%20Cafe!5e0!3m2!1sen!2sin!4v1727528132401!5m2!1sen!2sin"
+                style="border:0;width:100%;height:93%;margin-top:-15px" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="Package_Heading">
+        <h1>Our Deals</h1>
+    </div>
+
+    <div class="package_offer_div">
+        <div class="offer_card">
+            <a href="booking.html"><img src="images/Beige Minimalist Special Drink Sale Instagram Story.png"
+                    class="package_image" /></a>
+        </div>
+        <div class="offer_card">
+            <a href="booking.html"><img src="images/Hot Weekend Offer Burger or Fast Food Instagram Post.png"
+                    class="package_image" /></a>
+        </div>
+        <div class="offer_card">
+            <a href="booking.html"><img src="images/offer1.jpg" class="package_image" /></a>
+        </div>
+        <div class="offer_card">
+            <a href="booking.html"><img
+                    src="images/Orange and Yellow Chicken Tikka Masala Weekend Offer Instagram Post.png"
+                    class="package_image" /></a>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="whychooseus">
+        <a href="/readus.html" class="readbutton">Read us?</a>
+    </div>
+
+
+
+    <!-- <div class="media_content"> -->
+
+    <div class="media_content">
+        <div class="media">
+            <div class="media"
+                style="background-image: url('/images/Colorful\ Flat\ Please\ Review\ Us\ Instagram\ Post.png');background-size:cover; background-repeat: no-repeat;">
+
+                <!-- <img src="images/food4.jpg" class="review_image"/> -->
+                <button class="review_button" onclick="review()">Review Now</button>
+            </div>
+
+        </div>
+        <div class="media">
+
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hwcWIzlQiyw?si=h15x7nApvLj54pal"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <!-- fix div -->
+     <div class="fix">
+        <a href="https://web.whatsapp.com/"> <img src="/images/WhatsApp.svg.webp" height="60px" width="60px"> </a>
+     </div>
+     <!-- fix div end  -->
+
+
+
+
+
+    <!-- footer -->
+
+
+<div class="footer">
+
+<div class="first1">
+    <div class="one1">
+        <h2>About</h2>
+        <ul>
+            <li>Contact us</li>
+            <li>About us</li>
+            <li>Carrier</li>
+            <li>Stories</li>
+            <li>Coprate info</li>
+        </ul>
+    </div>
+    <div class="one1"><h2>Group Companies</h2>
+    <ul>
+        <li>Burger king</li>
+        <li>Mc Donals</li>
+        <li>Fries</li>
+    </ul>
+    </div>
+    <div class="one1"><h2>Help</h2>
+    <ul>
+        <li>Payment</li>
+        <li>Shiping</li>
+        <li>Cancellation</li>
+        <li>FAQ</li>
+        <li>Report </li>
+    </ul>
+    </div>
+    <div class="one1"><h2>Consumer Polices</h2>
+        <ul>
+            <li>Cancellation and return</li>
+            <li>Tearms of use</li>
+            <li>Security</li>
+            <li>Privacy</li>
+            <li>Sitemap</li>
+            <li>EPR compiance</li>
+            <li>Grievance </li>
+        </ul>
+        </div>
+</div>
+
+
+<div class="second2">
+    <div class="one1"><h2>Mail Us:</h2>
+    <pre>
+hard rock cafe Ltd,
+Building Aluassa, Begonia &
+Clove Embassy Tech Village,
+Outer Ring Road, Devarabessanhali,
+Bengaluru, 560103,
+Karbaraka , india
+    </pre>
+    </div>
+    <div class="one1"><h2>Register office address:</h2>
+    <pre>
+hard rock cafe ,
+Building Aluassa, Begonia &
+Clove Embassy Tech Village,
+Outer Ring Road, Devarabessanhali,
+Bengaluru, 560103,
+Karbaraka , india
+CIN: U51109KA2012TC066107
+Telephone: 044-45614700 / 044-624145800
+
+
+
+    </pre>
+    </div>
+    <div class="one1"><h2>Social:</h2>
+    <pre class="icons">
+        <i class="fa-brands fa-facebook"></i><br>
+        <i class="fa-brands fa-twitter"></i><br>
+        <i class="fa-brands fa-youtube"></i>
+
+    </pre>
+    
+    </div>
+
+
+</div>
+
+</div>
+
+<div class="footer2">
+    
+    <div class="payments">
+        <i class="fa-solid fa-bag-shopping"><pre><h4>  Become a Seller</h4></pre></i><br>
+        <i class="fa-regular fa-star"><pre><h4>  Advertise</h4></pre></i><br>
+        <i class="fa-solid fa-gift"><pre><h4>  Gift Card</h4></pre></i><br>
+        <i class="fa-solid fa-question"><pre><h4>  Help center</h4></pre></i><br>
+        <!-- <i class="fa-solid fa-circle-c"></i><br> -->
+        <i class="fa-solid fa-c"><pre><h4>  2002-2024 cafe</h4></pre></i>
+
+    </div>
+    <div class="payments2">
+        <table align="center" style="width: 90%; ;">
+            <tr>
+                <td><img src="/images/Mastercard_new_logo-1200x865.webp" width="100px" height="60px" alt=""></td>
+                <td><img src="/images/visa.png" width="100px" height="60px" alt=""></td>
+                <td><img src="/images/rupay.png" width="100px" height="60px" alt=""></td>
+                <td><img src="/images/gpay.webp" width="100px" height="60px" alt=""></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+<script src="/index.js"></script>
+</body>
+
+</html>

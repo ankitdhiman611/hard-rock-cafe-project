@@ -674,3 +674,7 @@ input[type="radio"]
 .payments2 img:hover{
     cursor: pointer;
 }
+.payments2 img{
+    /* mix-blend-mode: multiply; */
+}
+

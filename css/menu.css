@@ -1,0 +1,149 @@
+.menu{
+    background-image: url(/images/menuu.avif);
+    background-size:cover;
+    width: 100%;
+    height: 600px;
+}
+.line p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* text-decoration: none; */
+}
+.line a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+.tab{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.onee{
+    border: 2px solid black;
+    width: 150px;
+    height: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.onee:hover{
+    background-color: rgb(208, 106, 34);
+    border: 2px solid rgb(208, 106, 34);
+    color: white;
+}
+.content{
+    /* background-color: bisque; */
+    width: 90%;
+    height: 830px;
+    margin-left: 40px;
+}
+
+.content1{
+ /* border: 2px solid black; */
+    width: 600px;
+    height: 900px;
+    /* margin-top: 20px; */
+    /* margin-right: 20px; */
+    transform:translateX(700px);
+
+    color: white;
+}
+
+.content2{
+    background-image: url(/images/l.jpg);
+    background-size: cover;
+
+
+    width: 500px;
+    height: 400px;
+    margin-left: 120px;
+    transform:translatey(-870px);
+
+   
+}
+.content3{
+  
+    border: 3px solid orange;
+    width: 498px;
+    height: 250px;
+    margin-left: 120px;
+    transform: translateY(-850px);
+   
+}
+.content3 h1{
+    margin-top: 30px;
+}
+
+.content3 p{
+    /* margin-top: 20px; */
+    padding: 20px;
+}
+
+.content1 h1{
+    color: orange;
+    font-weight: bold;
+    font-size: 65px;
+    margin-top: 35px;
+    text-align: left;
+    padding: 15px;
+}
+.content1 h3{
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+.content1 p{
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+.contentimg img{
+    margin-left: 70px;
+    border-radius: 30px;
+}
+
+.instahandel{
+    background-image: url(/images/black\ back.webp);
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+
+}
+.instahandel h1{
+    color: white;
+    padding: 15px;
+}
+.instahandel a{
+    text-decoration: none;
+    color: white;
+}
+.instahandel a:hover{
+    color: orange;
+}
+.instapic{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.insta{
+    /* background-color: bisque; */
+    width: 30%;
+    height: 470px;
+    margin-top: 15px;
+}
+.insta img{
+    border-radius: 30px;
+
+}
+.insta img:hover{
+    border-radius: 50%;
+    border: 5px solid orange;
+    transition: 0.7s;
+}

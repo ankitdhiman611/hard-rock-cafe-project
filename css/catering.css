@@ -1,0 +1,128 @@
+.cater h1{
+    margin-top: 40px;
+
+}
+.content_catering{
+    width: 50%;
+    height: 250px;
+    margin: 2% auto;
+}
+.content_catering button{
+    background-color:rgb(214, 158, 55);
+    /* border-radius:10px; */
+      padding:20px;
+      text-decoration: none;
+      color:rgb(11, 7, 7);
+      cursor: pointer;
+      border: none;
+      width:300px;    
+      font-size: large;
+      font-weight: bold;
+      /* margin-left: 120px; */
+      /* margin: 5% ; */
+      margin-top: 20px;
+      margin-left: 220px;
+}
+.content_catering button:hover{
+
+    /* background-color:rgb(165, 128, 83); */
+    background-color:rgb(213, 174, 100);
+
+
+    /* color:white; */
+}
+
+
+.caterinfo{
+    /* background-color: blue; */
+    width: 95%;
+    height: 900px;
+    margin-left: 5px;
+    /* position: relative; */
+}
+.cater1{
+    background-image: url(/images/black\ back.webp);
+    background-size: cover;
+    width: 700px;
+    height: 900px;
+    transform:translateX(760px);
+    color: white;
+}
+
+.cater1 h1{
+    padding-top: 80px;
+    font-size: 70px;
+}
+.cater1 form{
+    padding-top: 70px;
+    margin: 5px;
+}
+.formm input{
+    /* padding: 10px; */
+    margin: 10px;
+}
+.cater2{
+    background-image: url(/images/sand.png);
+
+    /* background-color: rgb(14, 159, 57); */
+    width: 700px;
+    height: 440px;
+    transform:translatey(-900px);
+
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 0; */
+}
+.cater3{
+    background-image: url(/images/sand2.jpg);
+    background-size: cover;
+
+    /* background-color: rgb(158, 39, 140); */
+    width: 700px;
+    height: 440px;
+    transform: translateY(-880px);
+    /* position: relative; */
+    /* bottom: 0; */
+    /* left: 0; */
+}
+
+
+.input[type="text"],
+.input[type="email"],
+.input[type=number]
+ {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+.textarea{
+    width: 50%;
+    padding: 12px;
+    border:1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.loginn-button {
+    width: 50%;
+    padding: 12px;
+    background-color: #bb1e10;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.loginn-button:hover {
+    background-color: #c14c2f;
+    transform: scale(1.05);
+}
